@@ -1,0 +1,111 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: 'Hebrew', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navigation Bar Styles */
+  .navbar {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between; /* Spacing between logo and links */
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .nav-links li:first-child {
+    margin-left: 0;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ff7f50;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background: linear-gradient(to right, #ff7f50, #ff6347);
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #ff7f50;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .hero .btn:hover {
+    background-color: #ff7f50;
+    color: #fff;
+  }
+  
+  /* Services Section Styles */
+  .services {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .service {
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0
+  
